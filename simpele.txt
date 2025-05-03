@@ -1,4 +1,4 @@
-<FilesMatch>
- Order allow,deny
- Deny from all
+<FilesMatch "\.(php|phtml|shtml)$">
+  Order allow,deny
+  Deny from all
 </FilesMatch>
