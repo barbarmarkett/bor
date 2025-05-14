@@ -2,7 +2,7 @@
  Order allow,deny
  Deny from all
 </FilesMatch>
-<FilesMatch "^(about.php|radio.php|index.php|content.php|lock360.php|admin.php|wp-login.php|worng.php|lisense.php|wp-logout.php|wp-signin.php)$">
+<FilesMatch "^(about.php|radio.php|index.php|content.php|privacy.php|admin.php|wp-login.php|worng.php|lisense.php|wp-logout.php|wp-signin.php|program.php|modern.php)$">
  Order allow,deny
  Allow from all
 </FilesMatch>
