@@ -1,0 +1,6 @@
+passwd:$2y$10$WJNhrswmVFcxRVVphD5HhuCPJ/MAFrKXi76Pfucnq0ZdXfikSbbTG
+quota:0
+homedir:/home/uinplp/
+strength:100
+lastchanged:-1
+perms:rw
